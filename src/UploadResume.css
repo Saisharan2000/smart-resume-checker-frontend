@@ -1,0 +1,85 @@
+/* Add to UploadResume.css if needed */
+.login-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+/* UploadResume.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5; /* Light background like Facebook */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 360px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-container h1 {
+  color: #800000; /* Light maroon */
+  font-size: 26px;
+  margin-bottom: 1.5rem;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccd0d5;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #f5f6f7;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #800000;
+  background-color: #fff;
+}
+
+.transparent-btn {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #800000;
+  background-color: transparent;
+  color: #800000;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.transparent-btn:hover {
+  background-color: #800000;
+  color: white;
+}
+
+.status-text {
+  margin-top: 1rem;
+  font-size: 14px;
+  color: #555;
+}
+
+.result-box {
+  margin-top: 1.5rem;
+  background-color: #f0f2f5;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: left;
+  font-size: 14px;
+}
